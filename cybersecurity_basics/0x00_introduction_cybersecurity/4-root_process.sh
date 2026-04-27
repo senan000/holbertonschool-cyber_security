@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-ps -u $1 -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep -v " 0  0 "
+#!/bin/bash
+ps -u "$1" -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep -vE '\s+0\s+0\s+'
