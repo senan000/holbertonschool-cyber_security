@@ -53,5 +53,4 @@ By the end of this project, you will understand:
 - Network configuration impacts scan effectiveness
 - Privileged vs. unprivileged scanning differences
 
-
 **Note**: Network security requires responsible and ethical practice.
